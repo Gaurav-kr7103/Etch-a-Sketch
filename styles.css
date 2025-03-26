@@ -2,15 +2,26 @@
     margin : 0;
     padding : 0;
     box-sizing: border-box;
-    outline : 2px solid blue;
+    /* outline : 2px solid blue; */
 }
 body {
-    color: white;
+    /* color: white; */
     width: 100vw;
     height: 100vh;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap : 10px;
+}
+
+h1 {
+    color : black;
+}
+
+.reset {
+
 }
 .container {
     background-color: black;
@@ -23,6 +34,7 @@ body {
     flex-wrap: wrap;
 }
 .box {
+    /* outline : 2px solid white; */
     width: 40px;
     height: 40px;
     background-color : red;
