@@ -13,7 +13,7 @@ body {
     justify-content: center;
 }
 .container {
-    color: black;
+    background-color: black;
     width: 640px;
     height: 640px;
     margin-top: 5vh;
@@ -25,5 +25,5 @@ body {
 .box {
     width: 40px;
     height: 40px;
-    color : red;
+    background-color : red;
 }

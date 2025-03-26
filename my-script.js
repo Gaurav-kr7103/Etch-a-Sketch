@@ -7,3 +7,11 @@ for (let i=0; i<16; i++) {
         container.appendChild(div);
     }
 }
+
+const boxes = document.querySelectorAll(".box");
+// console.log (boxes.length);
+boxes.forEach(box => {
+    box.addEventListener("mouseover", () => {
+        box.style.backgroundColor = "black";
+    });
+});
