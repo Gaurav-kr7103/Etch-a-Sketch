@@ -1,0 +1,29 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    outline : 2px solid blue;
+}
+body {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+.container {
+    color: black;
+    width: 640px;
+    height: 640px;
+    margin-top: 5vh;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box {
+    width: 40px;
+    height: 40px;
+    color : red;
+}
